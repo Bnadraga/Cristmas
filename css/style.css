@@ -1,0 +1,59 @@
+.box{
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 500px;
+}
+.box:nth-child(1){
+    background-color: teal;
+}
+.box:nth-child(2){
+    background-color: orange;
+}
+.box:nth-child(3){
+    background-color: pink;
+}
+.box.relative{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+img{
+    width: 100%;
+}
+.wrap{
+    display: flex;
+}
+.card{
+    width: 300px;
+    margin: 20px;
+    position: relative;
+}
+.card > .label{
+    position: absolute;
+    bottom: 5%;
+    right: 40%;
+    color: blueviolet;
+    background-color: aqua;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn{
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border: none;
+    background-color: transparent;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1653/1653630.png);
+    background-size: cover;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+}
