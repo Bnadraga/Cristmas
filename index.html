@@ -12,10 +12,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="container">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+    <!-- <button class="btn-open" data-modal-open>CLICK!!!</button>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="btn" data-modal-close>close</button>
+            <p>hello, it`s a modal window</p>
+            <img src="img/vinegar.png" alt="" width="150">
+        </div>
+    </div> -->
+
+    
+    
+    
+    
+    <button class="btn-open">open</button>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <div class="form-wrap">
+                <form class="form" action="">
+                    <input required type="text" placeholder="Your name*">
+                    <input required type="email" placeholder="Your e-mail*">
+                    <input required type="text" placeholder="Your message*">
+                    <button type="submit" class="">Send message</button>
+                </form>
+            </div>
+            <div class="icons"></div>
+        </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
