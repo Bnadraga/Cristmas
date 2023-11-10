@@ -49,3 +49,29 @@
 .no-scroll{
     overflow: hidden;
 } */
+
+/* .btn{
+    background-color: aqua;
+    padding: 15px 20px;
+    color: pink;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: aquamarine;
+    color: bisque;
+}
+.btn:disabled{
+    cursor: not-allowed;
+    background-color: lightgrey;
+} */
+
+.form-input:checked{
+    outline: 2px solid skyblue;
+    border-radius: 50px;
+}
+.form-input:checked + .form-label{
+    color: skyblue;
+    text-decoration: underline;
+}
