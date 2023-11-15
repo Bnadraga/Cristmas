@@ -67,11 +67,11 @@
     background-color: lightgrey;
 } */
 
-.form-input:checked{
+/* .form-input:checked{
     outline: 2px solid skyblue;
     border-radius: 50px;
 }
 .form-input:checked + .form-label{
     color: skyblue;
     text-decoration: underline;
-}
+} */
