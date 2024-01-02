@@ -7,10 +7,80 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <img src="img/logo.png" alt="" width="130" height="70">
+            <ul class="header__list">
+                <li class="header__item">
+                    <a class="header__link" href="#">Home</a>
+                </li>
+                <li class="header__item">
+                    <a class="header__link" href="#">RSVP</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">‘Tis the Season for a Celebration</h1>
+                <p class="hero__text">Moreno Family Christmas Party Dec 19, 2035</p> 
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <h2 class="about__title">Please join us for a jolly night of food, drinks, eggnog and mistletoe!</h2>
+                <ul class="about__list">
+                    <li class="about__item">
+                        <img src="img/cristmas-ball.png" alt="">
+                        <h4 class="about__sub-title">What?</h4>
+                        <p class="about__sub-text">We'll be serving a full meal and have the house decked out</p>
+                    </li>
+                    <li class="about__item">
+                        <img src="img/box.png" alt="">
+                        <h4 class="about__sub-title">Where?</h4>
+                        <p class="about__sub-text">500 Terry Francine StreetSan Francisco, CA 94158</p>
+                    </li>
+                </ul>
+                <div class="about__card">
+                    <img src="img/elf.png" alt="">
+                    <div class="about__image">
+                        <h4 class="about__sub-text">Dec 19, 2035, 7:00 PM</h4>
+                    </div>
+                    <button class="about__card-btn">RSVP</button>
+                </div>
+            </div>
+        </section>
+        <section class="form">
+            <div class="container">
+                <img src="img/vinegar.png" alt="">
+                <h3 class="form__title">No need to bring anything other than yourselves. We can’t wait to see you there!</h3>
+                <h4 class="form__sub-title">Contact us</h4>
+                <p class="form__text">
+                    Call Steve or Marisol at 123-456-7890 or leave us a message:
+                </p>
+                <form class="form__form">
+                    <input class="form__input-small" type="text" placeholder="Full Name">
+                    <input class="form__input-small" type="text" placeholder="Phone">
+                    <input class="form__input-big" type="text" placeholder="Add a message...">
+                    <button type="submit" class="form__form-btn">SUBMIT</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__image">
+                <img src="img/symbol-defs.svg#icon-facebook" alt="">
+                <img src="img/symbol-defs.svg#icon-twitter" alt="">
+                <img src="img/symbol-defs.svg#icon-instagram" alt="">
+            </div>
+            <p class="footer__text">© 2035 Moreno Christmas</p>
+        </div>
+    </footer>
 </body>
 </html>

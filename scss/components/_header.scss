@@ -1,0 +1,10 @@
+.header{
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    &__link{
+        color: $secondTextColor;
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
